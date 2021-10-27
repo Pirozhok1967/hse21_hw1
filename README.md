@@ -78,3 +78,6 @@ platanus gap_close -o 75 -c 75_out_scaffold.fa -IP1 sub_75_R1.fq.trimmed sub_75_
 platanus gap_close -o 50 -c 50_out_scaffold.fa -IP1 sub_50_R1.fq.trimmed sub_50_R2.fq.trimmed -OP2 sub_MP_50_R1.fq.int_trimmed sub_MP_50_R2.fq.int_trimmed 2> gapclose.log
 platanus gap_close -o 25 -c 25_out_scaffold.fa -IP1 sub_25_R1.fq.trimmed sub_25_R2.fq.trimmed -OP2 sub_MP_25_R1.fq.int_trimmed sub_MP_25_R2.fq.int_trimmed 2> gapclose.log
 ```
+## Питоновский ноутбук
+[Ссылка на коллаб](https://colab.research.google.com/drive/1J1VrfiC6b15GtLexizD_LQMtZGI5lEgD?usp=sharing) </br>
+[Файл в репозитории](https://github.com/Pirozhok1967/hse21_hw1/blob/main/hw1.ipynb)
