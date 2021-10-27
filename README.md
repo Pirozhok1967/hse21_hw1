@@ -2,7 +2,8 @@
 Пирожкина Мария группа 4
 
 ## Задание 1
-[Список](.src/code) команд выполненных на сервере
+[Список](https://github.com/Pirozhok1967/hse21_hw1/blob/main/src/code) команд выполненных на сервере
+
 ```
 ls -1 /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}
 
@@ -38,16 +39,15 @@ echo scaffold1_cov231 > seq_names.lst
 seqtk subseq out_gapClosed.fa seq_names.lst > longest.fa
 ```
 ### Отчет MultiQC
-[исходное чтение](.multiqc_report_1.html)
+[исходное чтение](https://github.com/Pirozhok1967/hse21_hw1/blob/main/multiqc_report_1.html)
 ![mr1](https://user-images.githubusercontent.com/34075090/139083178-4bc88119-271a-407e-abb7-9c75902bde80.png)
 ![mr1_adapter_content_plot](https://user-images.githubusercontent.com/34075090/139083190-4865beb4-62a7-4c4e-8bdb-514ece1475aa.png)
-[подрезанное чтение](.multiqc_report.html)
+[подрезанное чтение](https://github.com/Pirozhok1967/hse21_hw1/blob/main/multiqc_report.html)
 ![Снимок экрана 2021-10-27 в 17 07 28](https://user-images.githubusercontent.com/34075090/139083408-21b28e43-a190-4706-a773-28190df6b4d0.png)
 ![fastqc_adapter_content_plot](https://user-images.githubusercontent.com/34075090/139083426-32c4ac13-7970-4e39-90c0-9b14be2d9902.png)
-### Отчет fastQC
 
 ## Задание 2
-[Список](.src/code2) команд выполненных на сервере</h4>
+[Список](https://github.com/Pirozhok1967/hse21_hw1/blob/main/src/code2) команд выполненных на сервере</h4>
 ```
 seqtk sample -s515 oil_R1.fastq 3750000 > sub_75_R1.fq
 seqtk sample -s515 oil_R1.fastq 2500000 > sub_50_R1.fq
